@@ -1,0 +1,10 @@
+credits
+
+plant:
+https://sketchfab.com/3d-models/stylized-herbaceous-plant-cf3d0eb04a2444c09dd939fa11063cd5
+
+crate:
+https://sketchfab.com/3d-models/game-ready-sci-fi-crate-d98deca6fc3341869fd6f86ba4813d29
+
+computer:
+https://sketchfab.com/3d-models/terminal-768bac39dd8f476fbe797f93a808f49c
