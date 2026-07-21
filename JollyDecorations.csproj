@@ -30,8 +30,8 @@
 
   <ItemGroup>
     <Reference Include="ReferencedAssemblies\MelonLoader.dll" />
-    <Reference Include="ReferencedAssemblies\StellarModdingToolkit.dll" />
-    <Reference Include="ReferencedAssemblies\Ship.dll" />
+	<Reference Include="ReferencedAssemblies\StellarModdingApi.dll" />
+	<Reference Include="ReferencedAssemblies\Ship.dll" />
     <Reference Include="ReferencedAssemblies\Ship.Interface.dll" />
 	<Reference Include="ReferencedAssemblies\Items.Interface.dll" />
 	<Reference Include="ReferencedAssemblies\UnityEngine.CoreModule.dll" />

@@ -1,5 +1,4 @@
 ﻿using JollyDecorations;
-using Ship.Parts.Bed;
 using System.Collections.Generic;
 using UnityEngine;
 

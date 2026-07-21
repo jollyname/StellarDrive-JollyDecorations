@@ -20,12 +20,6 @@ namespace JollyDecorations
 
     public class JollyDecorations : MelonMod
     {
-        public static MelonPreferences_Category Category =
-            MelonPreferences.CreateCategory("JollyDecorations");
-
-        public static MelonPreferences_Entry<ushort> PartID =
-            Category.CreateEntry<ushort>("PartID", 0b_10000000_00000000);
-
         public static AssetLoader Loader;
 
         public override void OnLateInitializeMelon()
@@ -55,12 +49,6 @@ namespace JollyDecorations
             GameObject debug = new("Collider Debugger");
             Object.DontDestroyOnLoad(debug);
             debug.AddComponent<ColliderDebugger>();
-
-            if (IntegrationUtilities.IsPartIDTaken(PartID.Value))
-            {
-                LoggerInstance.Warning($"Part ID({PartID.Value}) is already taken!");
-                return;
-            }
 
             RegisterDecorationParts();
         }
